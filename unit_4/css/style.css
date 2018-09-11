@@ -46,3 +46,9 @@ a {
 	text-decoration: none;
 	color: #0054a6;
 }
+
+section #intro {
+	background-image: url("../images/riseup-convention.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
