@@ -51,5 +51,5 @@ a {
 	background-image: url("../images/riseup-convention.png");
 	background-repeat: no-repeat;
 	background-position: left top;
-	width: 100%;
+        background-size: cover;
 }
