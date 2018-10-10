@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|Roboto');
 
 header {
-	background-color: #FFED74;
-	/*background-image: url("../images/hospitals.jpg");
+/*	background-color: #FFED74;
+*/	background-image: url("../images/hospitals.jpg");
 	background-repeat: no-repeat;
 	background-position: left top;
-    background-size: cover*/
+    background-size: cover
     border: 1px black solid;
 	padding: 20px
 }
@@ -103,12 +103,19 @@ footer {
 
 .stat
 
-#two_column {
+.two_column {
+	display: block;
 	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
 }
 
+#issue_grid {
+	display: block;
+	float: left;
+	padding: 20px;
+	width: 92%;
+}
 /*#left {
 	background-color: #E582A2;
 	border: 1px black solid;
@@ -130,11 +137,11 @@ footer {
 	color: #1C1C1C;
 }
 
-/*#intro {
+#intro {
 	background-image: url("../images/hospitals.jpg");
 	background-repeat: no-repeat;
 	background-position: left top;
     background-size: cover
-}*/
+}
 
 
